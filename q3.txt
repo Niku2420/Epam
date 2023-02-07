@@ -1,0 +1,5 @@
+mkdir floder1 
+touch folder1/f_{1..3}
+chmod -R 750 folder1
+chattr +i floder1
+
