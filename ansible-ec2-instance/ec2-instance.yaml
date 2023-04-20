@@ -13,7 +13,7 @@
         security_group: default
         region: us-east-1
         network:
-          assign_public_ip: false
+          assign_public_ip: true
         image_id: ami-007855ac798b5175e
         state: stopped
         tags:
